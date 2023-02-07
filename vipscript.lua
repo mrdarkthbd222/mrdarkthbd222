@@ -1,4 +1,3 @@
--- OnlyTris
   ok = false
   src = nil
   results = {}
@@ -16,7 +15,7 @@
         gg["setVisible"](true)
         os["remove"](gg["EXT_STORAGE"] .. "/Android/data/com.dts.freefireth/files/reportnew.db", gg["LOAD_APPEND"])
         os["remove"](gg["EXT_STORAGE"] .. "/Android/data/com.dts.freefireth/files/ymrtc_log.txt", gg["LOAD_APPEND"])
-        print(("\n🛠 Cᴏɴᴇᴄᴛᴀᴛᴇ ᴀ Fʀᴇᴇ Fɪʀᴇ ᴏ Sᴇʟᴇᴄᴄɪᴏɴᴇ Bɪᴇɴ Oᴛʀᴀ Vᴇᴢ Eʟ Pʀᴏᴄᴇsᴏ Dᴇʟ Jᴜᴇɢᴏ Dᴇsᴅᴇ Eʟ GG Mod Kɪʀɪᴛᴏ Gᴀᴍᴇʀツ Pᴀʀᴀ Pᴏᴅᴇʀ Aᴄᴛɪᴠᴀʀ Esᴛᴀ Oᴘᴄɪᴏ́ɴ 🛠"))
+        print(("\n🛠 First Select Free Fire And After Run This ScriptOr Failed It 🛠"))
         os["exit"]()
       else
         memFrom = ranges[1]["VTRPBR_OFICIAL"]
@@ -396,12 +395,12 @@
   on = "[✔]"
   function START()
     chz = gg["multiChoice"]({
-      balamagica .. "   ᴍᴀɢɪᴄ ʙᴜʟʟᴇᴛ",
-      "➤ ɪᴍᴏʀᴛᴀʟ [ Test ] V1",
-      "➤ ɪᴍᴏʀᴛᴀʟ [ Test ] V2",
-      "➤ ɪᴍᴏʀᴛᴀʟ [ Test ] V3",
+      balamagica .. "   🎯ᴍᴀɢɪᴄ ʙᴜʟʟᴇᴛ",
+      "➤ Immortal [ Test ] V1",
+      "➤ Immortal [ Test ] V2",
+      "➤ Immortal [ Test ] V3",
       ("Exit")
-    }, nil, "" .. os["date"]("✦═══════ ❴✿❵ ═══════✦\n   ➢ Game FF 1.97.x\n   ➢ Status: Online\n   ➢ Time: %H:%M |  Date: %d/%m", curTime) .. "\n   ➢ Script: Vip\n✦═══════ ❴✿❵ ═══════✦")
+    }, nil, "" .. os["date"]("✦═══════ ❴✿❵ ═══════✦\n   ➢ Game FF 1.97.x\n   ➢ Status: Online\n   ➢ Time: %H:%M |  Date: %d/%m", curTime) .. "\n ✦═══════ ❴✿❵ ═══════✦")
     if chz == nil then
     else
       if chz[1] == true then
@@ -447,7 +446,7 @@
       gg["toast"](("ᴍᴀɢɪᴄ ʙᴜʟʟᴇᴛ ᴏɴ✔️"))
       balamagica = on
     elseif balamagica == on then
-      gg["toast"](("ʀᴇɪɴɪᴄɪᴇ ᴏ ᴊᴏɢᴏ ᴘᴀʀᴀ ᴅᴇsᴀᴛɪᴠᴀʀ! ❌"))
+      gg["toast"](("If You Run This Script Cannot Disable It! ❌"))
       balamagica = on
     end
   end
