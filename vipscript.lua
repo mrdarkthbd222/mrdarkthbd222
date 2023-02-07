@@ -395,10 +395,10 @@
   on = "[✔]"
   function START()
     chz = gg["multiChoice"]({
-      balamagica .. "   🎯ᴍᴀɢɪᴄ ʙᴜʟʟᴇᴛ",
-      "➤ Immortal [ Test ] V1",
-      "➤ Immortal [ Test ] V2",
-      "➤ Immortal [ Test ] V3",
+      balamagica .. "   🎯Magic Bullet",
+      "➤ IMMORTAL [ Test ] V1",
+      "➤ IMMORTAL [ Test ] V2",
+      "➤ IMMORTAL [ Test ] V3",
       ("Exit")
     }, nil, "" .. os["date"]("✦═══════ ❴✿❵ ═══════✦\n   ➢ Game FF 1.97.x\n   ➢ Status: Online\n   ➢ Time: %H:%M |  Date: %d/%m", curTime) .. "\n ✦═══════ ❴✿❵ ═══════✦")
     if chz == nil then
